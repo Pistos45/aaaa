@@ -5,3 +5,10 @@
 body{ 
     background-color:yellow
 }
+table{   
+    background-color: blue; 
+
+}
+table:hover{
+    background-color: aquamarine;
+}
