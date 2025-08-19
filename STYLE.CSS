@@ -3,6 +3,8 @@
 
 }
 body{ 
+    display: flex;
+    justify-content: ;
     background-color:yellow
 }
 table{   
@@ -11,4 +13,7 @@ table{
 }
 table:hover{
     background-color: aquamarine;
+}
+aside{
+    padding: 19px;
 }
