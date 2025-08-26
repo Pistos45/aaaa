@@ -4,8 +4,33 @@
 }
 body{ 
     display: flex;
-    justify-content: ;
+    justify-content: center;
+    align-items: center;
     background-color:yellow
+}
+
+.quadrado{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation: mover 2s infinite alternate;
+}
+.circulo{
+    width: 35px;
+    height: 63px;
+    background-color: blueviolet;
+    border-radius: 100%; 
+    animation: Pular 2s infinite alternate;
+}
+@keyframes Pular{
+    from{transform: translateY(0px);}
+    to {transform: translateY(400px);}
+}
+
+@keyframes mover {
+from { transform: translateX(0px);}
+to {transform: translateX(200px);}
 }
 table{   
     background-color: blue; 
@@ -17,3 +42,19 @@ table:hover{
 aside{
     padding: 19px;
 }
+button{
+    background-color: blue;
+    height: 2000px;
+}
+
+button:hover{
+   transition: background 2s ease;
+   background-color: red;
+
+}
+.texto{animation: ;
+}
+@keyframes
+
+
+ 
